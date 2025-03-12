@@ -8,3 +8,5 @@ metadata:
 spec:
   url: oci://arkondata.azurecr.io/helmchart
   type: oci
+  secretRef:
+    name: acr-credentials
