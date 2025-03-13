@@ -1,0 +1,12 @@
+
+# flux HelmRepository for installing nginx ingress controller
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: HelmRepository
+metadata:
+  name: robot-shop-whale
+  namespace: robot-shop-whale
+spec:
+  url: oci://arkondata.azurecr.io/helmchart
+  type: oci
+  secretRef:
+    name: acr-credentials
