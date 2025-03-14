@@ -3,7 +3,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
-  name: robot-shop-whale
+  name: robot-shop-whale-hrep
   namespace: robot-shop-whale
 spec:
   url: oci://arkondata.azurecr.io/helmchart

@@ -3,7 +3,7 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta2
 kind: HelmRelease
 metadata:
-  name: robot-shop
+  name: robot-shop-whale-hrel
   namespace: robot-shop-whale
 spec:
   chart:
@@ -13,8 +13,8 @@ spec:
       interval: 1h # this is for checking of a new chart
       sourceRef:
         kind: HelmRepository
-        name: robot-shop-whale
-  releaseName: robot-shop
+        name: robot-shop-whale-hrep
+  releaseName: robot-shop-release
   targetNamespace: robot-shop-whale
   interval: 1h # this is for drifting of the helm created resources
   
