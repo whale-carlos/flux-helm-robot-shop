@@ -14,7 +14,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: robot-shop
-  releaseName: robot-shop-whale
+  releaseName: robot-shop
   targetNamespace: robot-shop-whale
   interval: 1h # this is for drifting of the helm created resources
   
