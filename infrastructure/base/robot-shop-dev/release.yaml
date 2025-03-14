@@ -17,5 +17,6 @@ spec:
   releaseName: rs-release
   targetNamespace: ns-rs
   interval: 1h # this is for drifting of the helm created resources
+  timeout: 10m
   
   
