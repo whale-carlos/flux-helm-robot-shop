@@ -10,4 +10,3 @@ spec:
   type: oci
   secretRef:
     name: acr-credentials
-    namespace: ns-rs
