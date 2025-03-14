@@ -1,5 +1,5 @@
 
 
 resources:
-  - ./robot-shop
   - ./robot-shop-whale
+  - ./robot-shop-dev
