@@ -1,0 +1,13 @@
+
+# flux HelmRepository for installing nginx ingress controller
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: HelmRepository
+metadata:
+  name: rs-helmRepository
+  namespace: ns-rs
+spec:
+  url: oci://arkondata.azurecr.io/helmchart
+  type: oci
+  secretRef:
+    name: acr-credentials
+    namespace: ns-rs

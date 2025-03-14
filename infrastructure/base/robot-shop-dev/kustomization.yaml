@@ -1,0 +1,5 @@
+
+
+resources:
+  - repository.yaml
+  - release.yaml
