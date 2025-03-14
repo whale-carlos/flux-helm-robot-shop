@@ -13,7 +13,7 @@ spec:
       interval: 1h # this is for checking of a new chart
       sourceRef:
         kind: HelmRepository
-        name: robot-shop
+        name: robot-shop-whale
   releaseName: robot-shop
   targetNamespace: robot-shop-whale
   interval: 1h # this is for drifting of the helm created resources
