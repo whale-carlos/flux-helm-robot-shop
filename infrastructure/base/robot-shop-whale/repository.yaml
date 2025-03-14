@@ -10,4 +10,4 @@ spec:
   type: oci
   secretRef:
     name: acr-credentials
-    name-space: robot-shop-whale
+    namespace: robot-shop-whale
